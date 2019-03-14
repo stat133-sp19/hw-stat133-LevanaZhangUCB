@@ -1,4 +1,5 @@
 team_name: The team player was on when player made the shot. Data type is factor.
+
 game_date: Date (MM/DD/YYYY) of basketball game in which shot occurred. Data type is character.
 season: Year of basketball season when shot occurred. Data type is factor.
 period: The period number in which the shot occurred. Data type is factor.
