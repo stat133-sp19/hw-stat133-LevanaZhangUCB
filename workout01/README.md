@@ -6,37 +6,69 @@ This assignment cleans data regarding the statistics for Stephen Curry, Kevin Du
 This assignment is also a practice in manipulating file structures, cleaning data, uploading data (to github) and presenting data (in the form of a report).
 
 The file structure should look like this:
+
 workout01/
+
   README.md
-  data/
-    andre-iguodala.csv
-    data-dictionary.md
-    draymond-green.csv
-    kevin-durant.csv
-    klay-thompson.csv
-    shots-data.csv
-    stephen-curry.csv
-  code/
-    make-shots-data-script.R
-    make-shot-charts-script.R
-  images/
-    andre-iguodala-shot-chart.pdf
-    draymond-green-shot-chart.pdf
-    gsw-shot-charts.pdf
-    gsw-shot-charts.png
-    kevin-durant-shot-chart.pdf
-    klay-thompson-shot-chart.pdf
-    nba-court.jpg
-    stephen-curry-shot-chart.pdf
-  output/
-    andre-iguodala-summary.txt
-    draymond-green-summary.txt
-    kevin-durant-summary.txt
-    klay-thompson-summary.txt
-    shots-data-summary.txt
-    stephen-curry-summary.txt
-  report/
-    workout01-first-last.Rmd
-    workout01-first-last.md
   
+  data/
+  
+    andre-iguodala.csv
+    
+    data-dictionary.md
+    
+    draymond-green.csv
+    
+    kevin-durant.csv
+    
+    klay-thompson.csv
+    
+    shots-data.csv
+    
+    stephen-curry.csv
+    
+  code/
+  
+    make-shots-data-script.R
+    
+    make-shot-charts-script.R
+    
+  images/
+  
+    andre-iguodala-shot-chart.pdf
+    
+    draymond-green-shot-chart.pdf
+    
+    gsw-shot-charts.pdf
+    
+    gsw-shot-charts.png
+    
+    kevin-durant-shot-chart.pdf
+    
+    klay-thompson-shot-chart.pdf
+    
+    nba-court.jpg
+    
+    stephen-curry-shot-chart.pdf
+    
+  output/
+  
+    andre-iguodala-summary.txt
+    
+    draymond-green-summary.txt
+    
+    kevin-durant-summary.txt
+    
+    klay-thompson-summary.txt
+    
+    shots-data-summary.txt
+    
+    stephen-curry-summary.txt
+    
+  report/
+  
+    workout01-first-last.Rmd
+    
+    workout01-first-last.md
+    
 Working directory is set to workout01/data for the purpose of relative paths in the code.
