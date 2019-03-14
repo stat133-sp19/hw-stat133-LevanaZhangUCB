@@ -1,0 +1,68 @@
+                 team_name    game_date          season    period  minutes_remaining seconds_remaining
+ Golden State Warriors:578   Length:578         2016:578   1:181   Min.   : 0.000    Min.   : 0.00    
+                             Class :character              2:135   1st Qu.: 2.000    1st Qu.:15.25    
+                             Mode  :character              3:154   Median : 6.000    Median :31.00    
+                                                           4:108   Mean   : 5.536    Mean   :29.59    
+                                                                   3rd Qu.: 9.000    3rd Qu.:44.00    
+                                                                   Max.   :11.000    Max.   :59.00    
+                                                                                                      
+  shot_made_flag             action_type           shot_type   shot_distance                    opponent  
+ shot_no :333    Jump Shot         :240   2PT Field Goal:346   Min.   : 0.00   Houston Rockets      : 52  
+ shot_yes:245    Layup Shot        : 59   3PT Field Goal:232   1st Qu.: 1.00   Sacramento Kings     : 42  
+                 Pullup Jump shot  : 44                        Median : 6.00   New Orleans Pelicans : 29  
+                 Driving Layup Shot: 33                        Mean   :12.17   Oklahoma City Thunder: 29  
+                 Tip Layup Shot    : 26                        3rd Qu.:25.00   Dallas Mavericks     : 27  
+                 Cutting Dunk Shot : 22                        Max.   :55.00   Memphis Grizzlies    : 26  
+                 (Other)           :154                                        (Other)              :373  
+       x                 y             name               minute     
+ Min.   :-248.00   Min.   :-31.0   Length:578         Min.   : 1.00  
+ 1st Qu.: -27.00   1st Qu.:  8.0   Class :character   1st Qu.:10.00  
+ Median :   0.00   Median : 36.0   Mode  :character   Median :23.00  
+ Mean   :  -7.17   Mean   :100.6                      Mean   :22.39  
+ 3rd Qu.:  18.75   3rd Qu.:217.0                      3rd Qu.:33.00  
+ Max.   : 240.00   Max.   :535.0                      Max.   :48.00  
+                                                                     
+     team_name   game_date      season      period      minutes_remaining seconds_remaining shot_made_flag
+[1,] factor,1250 Character,1250 factor,1250 factor,1250 Numeric,1250      Numeric,1250      factor,1250   
+     action_type shot_type   shot_distance opponent    x            y            name           minute      
+[1,] factor,1250 factor,1250 Numeric,1250  factor,1250 Numeric,1250 Numeric,1250 Character,1250 Numeric,1250
+     team_name  game_date     season     period     minutes_remaining seconds_remaining shot_made_flag action_type
+[1,] factor,915 Character,915 factor,915 factor,915 Numeric,915       Numeric,915       factor,915     factor,915 
+     shot_type  shot_distance opponent   x           y           name          minute      team_name 
+[1,] factor,915 Numeric,915   factor,915 Numeric,915 Numeric,915 Character,915 Numeric,915 factor,578
+     game_date     season     period     minutes_remaining seconds_remaining shot_made_flag action_type shot_type 
+[1,] Character,578 factor,578 factor,578 Numeric,578       Numeric,578       factor,578     factor,578  factor,578
+     shot_distance opponent   x           y           name          minute      team_name  game_date    
+[1,] Numeric,578   factor,578 Numeric,578 Numeric,578 Character,578 Numeric,578 factor,371 Character,371
+     season     period     minutes_remaining seconds_remaining shot_made_flag action_type shot_type  shot_distance
+[1,] factor,371 factor,371 Numeric,371       Numeric,371       factor,371     factor,371  factor,371 Numeric,371  
+     opponent   x           y           name          minute      team_name   game_date      season     
+[1,] factor,371 Numeric,371 Numeric,371 Character,371 Numeric,371 factor,1220 Character,1220 factor,1220
+     period      minutes_remaining seconds_remaining shot_made_flag action_type shot_type   shot_distance
+[1,] factor,1220 Numeric,1220      Numeric,1220      factor,1220    factor,1220 factor,1220 Numeric,1220 
+     opponent    x            y            name           minute      
+[1,] factor,1220 Numeric,1220 Numeric,1220 Character,1220 Numeric,1220
+No documentation for ‘delete’ in specified packages and libraries:
+you could try ‘??delete’
+Error in install.packages : 'match' requires vector arguments
+Warning in install.packages :
+  package ‘grid’ is not available (for R version 3.5.2)
+Warning in install.packages :
+  package ‘grid’ is a base package, and should not be updated
+package ‘jpeg’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Levana\AppData\Local\Temp\Rtmp2lEEHY\downloaded_packages
+Warning in install.packages :
+  package ‘grid’ is not available (for R version 3.5.2)
+Warning in install.packages :
+  package ‘grid’ is a base package, and should not be updated
+Warning in install.packages :
+  package ‘grid’ is not available (for R version 3.5.2)
+Warning in install.packages :
+  package ‘grid’ is a base package, and should not be updated
+[1] 915
+[1] 915
+[1] 1
+[1] 2
+[1] 2

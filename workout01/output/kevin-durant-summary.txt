@@ -1,0 +1,24 @@
+                 team_name    game_date          season    period  minutes_remaining seconds_remaining
+ Golden State Warriors:915   Length:915         2016:915   1:261   Min.   : 0.000    Min.   : 0.00    
+                             Class :character              2:251   1st Qu.: 2.000    1st Qu.:13.00    
+                             Mode  :character              3:234   Median : 6.000    Median :27.00    
+                                                           4:169   Mean   : 5.833    Mean   :28.02    
+                                                                   3rd Qu.: 9.000    3rd Qu.:43.00    
+                                                                   Max.   :11.000    Max.   :59.00    
+                                                                                                      
+  shot_made_flag             action_type           shot_type   shot_distance                     opponent  
+ shot_no :420    Jump Shot         :348   2PT Field Goal:643   Min.   : 0.00   Portland Trail Blazers: 70  
+ shot_yes:495    Pullup Jump shot  :114   3PT Field Goal:272   1st Qu.: 2.00   Los Angeles Clippers  : 61  
+                 Fadeaway Jump Shot: 48                        Median :14.00   Oklahoma City Thunder : 61  
+                 Layup Shot        : 35                        Mean   :13.12   New Orleans Pelicans  : 55  
+                 Driving Layup Shot: 34                        3rd Qu.:24.00   Denver Nuggets        : 51  
+                 Running Layup Shot: 30                        Max.   :58.00   Los Angeles Lakers    : 50  
+                 (Other)           :306                                        (Other)               :567  
+       x                 y              name               minute     
+ Min.   :-246.00   Min.   :-39.00   Length:915         Min.   : 1.00  
+ 1st Qu.: -29.00   1st Qu.: 11.00   Class :character   1st Qu.:11.00  
+ Median :   0.00   Median : 80.00   Mode  :character   Median :23.00  
+ Mean   :  11.43   Mean   : 98.54                      Mean   :22.25  
+ 3rd Qu.:  73.50   3rd Qu.:173.50                      3rd Qu.:32.00  
+ Max.   : 240.00   Max.   :572.00                      Max.   :48.00  
+                                                                      
