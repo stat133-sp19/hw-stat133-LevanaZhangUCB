@@ -1,0 +1,102 @@
+---
+title: "Introduction to the binomial R package"
+author: "Levana Zhang"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(binomial)
+```
+## The Binomial Random Variable
+The purpose of this package is to provide tools to help analyze statistics-related and
+probability-related aspects of a binomial random variable through calculations and plots.
+
+
+## bin_choose(n,k)
+This function calclutates the k-combination of n elements. Inputs n and k are both numeric values
+
+
+## bin_probability(success,trials,prob)
+This function calculates the probability of a certain number of successes within a certain number of trials with a given probability of success.
+
+
+success can be a numeric value or a numeric vector. trials and prob are numeric values.
+Ex.
+```{r}
+bin_probability(3,5,0.5)
+bin_probability(c(1:3),5,0.5)
+```
+
+
+## bin_distribution(trials,prob)
+Determines the binomial distribution of a binomial random variable given a certain number of trials and
+probability of success. trials and prob are numeric values. The function returns an object of classes 
+"bindis" and "data.frame".
+Ex.
+```{r}
+bin_distribution(5,0.5)
+```
+
+
+In particular, an object of class "bindis" (eg. the output of bin_distribution) can be plotted as a
+bar graph.
+Ex.
+```{r}
+a <- bin_distribution(5,0.5)
+plot(a)
+```
+
+
+## bin_cumulative(trials,prob)
+Determines the cumulative distribution of a binomial random variable given a certain number of trials 
+and probability of success. trials and prob are numeric values. The function returns an object of 
+classes "bincum" and "data.frame".
+Ex.
+```{r}
+bin_distribution(5,0.5)
+```
+
+
+In particular, an object of class "bincum" (eg. the output of bin_cumulative) can be plotted as a
+line graph with points.
+Ex.
+```{r}
+a <- bin_cumulative(5,0.5)
+plot(a)
+```
+
+
+## bin_variable(trials,prob)
+This function, in a sense, defines a binomial random variable by storing an inputted number of trials
+and an inputted probability of success. trials and prob are numeric values. trials and prob are numeric 
+values. The function returns an object of class "binvar".
+Ex.
+```{r}
+bin_variable(5,0.5)
+```
+
+
+In particular, an list of summary measures of an object of class "binvar" (eg. the output of
+bin_variable) can be created.
+Ex.
+```{r}
+a <- bin_variable(5,0.5)
+summary.binvar(a)
+```
+
+## bin_mean, bin_variance, bin_mode, bin_skewness, bin_kurtosis
+Calculates summary measures (mean, variance, mode, skewness, and kurtosis respectively) of a binomial 
+random variable defined by a given number of trials and a given probability of success. Inputs are 
+numeric values trial and prob (in that order). Output is a numeric value.
+Ex.
+```{r}
+bin_mean(5,0.5)
+bin_variance(5,0.5)
+bin_mode(5,0.5)
+bin_skewness(5,0.5)
+bin_kurtosis(5,0.5)

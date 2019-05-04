@@ -1,0 +1,19 @@
+Package: binomial
+Type: Package
+Title: Performs Statistical Functions of Binomial Random Variable
+Version: 0.1.0
+Author: Levana Zhang
+Maintainer: Levana Zhang <levanaz820@berkeley.edu>
+Description: Functions that calculate probability, probability distribution,
+    cumulative distribution, and analytical formulas (mean, variance, etc)
+    for a binomial random variable. Also contains functions to plot distributions,
+    create a statistical summary (mean, variance, etc.) of a binomial random variable,
+    and print the binomial random variable and its summary.
+License: LGPL-2
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Suggests: 
+    knitr,
+    rmarkdown
+RoxygenNote: 6.1.1
